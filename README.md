@@ -1,13 +1,21 @@
 # 概要
-Python の学習用途に作成したリポジトリです。
+Python 学習用のコンテンツは、書籍、Webサイト、サービスなど有料・無料含めて膨大にある。
+東京大学や京都大学が出している質の高いものから、それこそ Python 公式でも日本語で学ぶことができる。
+ただし、これらのコンテンツは学習について進捗管理がし辛い。
+
+そこで、データサイエンス100本ノックのような、Python の基礎について問題が列挙されているようなコンテンツを作ろうと思った。
+GitHub に問題集を作成することで、取り組んだ内容や、コミット時の履歴、Slackへの通知連携などで取り組みが見えやすい。
+複数人で同時に行えば、他者のコミットによる通知がモチベーションにも繋がると考えた。
+
+Python 単体の学習だけではなく、エンジニアとしての基礎である Git の使い方についても同時に身につけて欲しい。
 
 # 受講者向け
 ## GitHub の登録、準備
-以下のドキュメントを参考に GitHub でアカウントの作成を行なってください。
-https://docs.github.com/ja/get-started/start-your-journey/creating-an-account-on-github
+以下のドキュメントを参考に GitHub でアカウントの作成を行なってください。  
+https://docs.github.com/ja/get-started/start-your-journey/creating-an-account-on-github  
 
-次に、使用している端末で SSH キーを生成してアカウントに登録してください。
-https://docs.github.com/ja/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+次に、使用している端末で SSH キーを生成してアカウントに登録してください。  
+https://docs.github.com/ja/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent  
 
 
 ## Git 環境を構築する
@@ -21,8 +29,8 @@ https://docs.github.com/ja/authentication/connecting-to-github-with-ssh/generati
 1. コミット手順は `git add`, `git commit`, `git pull`, `git push`
 
 # 課題が完了したら
-2. プルリクエストを出す
-3. レビューしてもらって、OKが出たらマージ
+1. プルリクエストを出す
+1. レビューしてもらって、OKが出たらマージ
 
 # 問題作成者向け
 問題の作成を手伝ってくれる人を募集しています。
